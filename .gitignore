@@ -1,0 +1,17 @@
+# Ignore the virtual environment
+venv/
+.venv/
+
+# Ignore all report files (assuming they end in .pdf, .csv, or .docx)
+*.pdf
+*.csv
+*.docx
+reports/
+
+# Ignore Mac system files
+.DS_Store
+
+#ignore file 
+helios_dashboardcopy.py
+dashboard/__init__.py
+dashboard/__pycache__/
